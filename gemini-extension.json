@@ -1,0 +1,11 @@
+{
+  "name": "vigilia",
+  "version": "1.0.0",
+  "description": "Fix what breaks in your live app from Gemini CLI: Vigilia's plain-language diagnoses, the evidence and a fix prompt for each incident, and confirmation from real traffic that your fix held.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "vigilia": {
+      "httpUrl": "https://app.getvigilia.com/mcp"
+    }
+  }
+}

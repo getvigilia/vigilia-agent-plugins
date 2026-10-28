@@ -1,0 +1,12 @@
+---
+description: Production bugs and live-app errors. Check Vigilia first, then close the loop with mark_fixed once the fix is deployed.
+alwaysApply: false
+---
+
+## Production errors: Vigilia
+
+This app's live site is watched by Vigilia, connected here as the `vigilia` MCP server.
+
+- Asked to fix a production bug, or what's broken in production? Check Vigilia first: `list_open_incidents`, then `get_incident` for the evidence and a suggested fix. Verify it against the code.
+- Once a fix is deployed, call `mark_fixed` so Vigilia confirms it with real traffic. `get_fix_status` then says whether the fix held.
+- Never print or commit a Vigilia API token.

@@ -1,0 +1,15 @@
+{
+  "name": "vigilia",
+  "displayName": "Vigilia",
+  "version": "1.0.0",
+  "description": "Fix what breaks in your live app from Cursor: Vigilia's plain-language diagnoses, the evidence and a fix prompt for each incident, and confirmation from real traffic that your fix held.",
+  "author": {
+    "name": "Vigilia",
+    "email": "support@getvigilia.com"
+  },
+  "homepage": "https://getvigilia.com/?utm_source=cursor&utm_medium=directory&utm_campaign=listings",
+  "repository": "https://github.com/getvigilia/vigilia-agent-plugins",
+  "license": "MIT",
+  "keywords": ["monitoring", "error-tracking", "uptime", "incidents", "production", "mcp", "vibe-coding", "lovable", "bolt"],
+  "logo": "assets/logo.png"
+}
